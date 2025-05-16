@@ -33,8 +33,8 @@ template<typename T, std::size_t N>
 void rotateClockwise(std::array<T, N>& arr, std::size_t shift) {
     if (N == 0) return;
     shift %= N;
-    if (shift == 0) return; // if the array is empty, return//
-    std::vector<T> temp; //creates new temporary array//
+    if (shift == 0) return;
+    std::vector<T> temp;
     temp.reserve(N); //pre-allocates space for efficiency.
 
     for (std::size_t i = 0; i < N; ++i) {

@@ -73,7 +73,6 @@ int main() {
 
 
 
-
     std::deque<int> dq1 {1, 2, 3, 4, 5};
 
     std::cout << "Deque before erase (odd amount of elements): ";
@@ -87,7 +86,6 @@ int main() {
         std::cout << elem << " ";
     }
     std::cout <<std::endl;
-
 
     std::deque<std::string> dq2 {"apple", "banana", "pear", "orange", "tangerine", "plum"};
 
@@ -109,9 +107,7 @@ int main() {
         std::cout << a << " ";
     }
     std::cout << std::endl;
-
     removeMiddleElements(animals);
-
     std::cout << "Animal deque after erase: ";
     for (const auto& a : animals) {
         std::cout << a << " ";
