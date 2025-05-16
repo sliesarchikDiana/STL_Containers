@@ -37,10 +37,8 @@ int main() {
 
 
 
-
     std::vector<int> numbers1 {1, 2, 3, 4, 5};
     std::vector<int> numbers2 {10, 20, 30};
-
     std::cout << "First vector before insertion: ";
     for (const auto& num : numbers1) {
         std::cout << num << " ";

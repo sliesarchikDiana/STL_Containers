@@ -29,10 +29,10 @@ public:
     ~animal() = default;
 };
 
-template<typename T, std::size_t N> //template for array
+template<typename T, std::size_t N>
 void rotateClockwise(std::array<T, N>& arr, std::size_t shift) {
-    if (N == 0) return; //check whether the array is empty//
-    shift %= N; // a = a %= N (size of array)
+    if (N == 0) return;
+    shift %= N;
     if (shift == 0) return; // if the array is empty, return//
     std::vector<T> temp; //creates new temporary array//
     temp.reserve(N); //pre-allocates space for efficiency.
