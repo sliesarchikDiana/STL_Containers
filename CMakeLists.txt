@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(STL_Containers main.cpp
         prt1_task1.cpp
-        prt1_task1.h)
+        prt1_task1.h
+        prt2_task1.cpp
+        prt2_task1.h)
