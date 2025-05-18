@@ -14,8 +14,8 @@ private:
     int age;
 
 public:
-    animal(std::string  species, std::string  color, const int age)
-        : species(std::move(species)), color(std::move(color)), age(age){};
+    animal(std::string  species, std::string  color, const int age) : species(std::move(species)), color(std::move(color)), age(age){};
+    ~animal() = default;
 
     [[nodiscard]]std::string get_species() const { return species; }
     [[nodiscard]]std::string get_color() const { return color; }
@@ -26,7 +26,6 @@ public:
         return os;
     }
 
-    ~animal() = default;
 };
 
 template<typename T, std::size_t N>
@@ -42,7 +41,7 @@ void rotateClockwise(std::array<T, N>& arr, std::size_t shift) {
     }
 
     for (std::size_t i = 0; i < N; ++i) {
-        arr[i] = temp[i]; //copies back values to their original array//
+        arr[i] = temp[i];
     }
 }
 
@@ -52,7 +51,6 @@ template<typename T>
 void insertRange(std::vector<T>& destination, typename std::vector<T>::iterator position, const std::vector<T>& source) {
     destination.insert(position, source.begin(), source.end());
 }
-
 
 
 template<typename T>
