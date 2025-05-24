@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj.d"
   "CMakeFiles/STL_Containers.dir/prt2_task2.cpp.obj"
   "CMakeFiles/STL_Containers.dir/prt2_task2.cpp.obj.d"
+  "CMakeFiles/STL_Containers.dir/prt2_task3.cpp.obj"
+  "CMakeFiles/STL_Containers.dir/prt2_task3.cpp.obj.d"
   "STL_Containers.exe"
   "STL_Containers.exe.manifest"
   "STL_Containers.pdb"

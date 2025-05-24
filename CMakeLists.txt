@@ -8,4 +8,5 @@ add_executable(STL_Containers
         prt1_task1.h
         prt2_task1.cpp
         prt2_task2.cpp
+        prt2_task3.cpp
 )
