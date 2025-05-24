@@ -176,6 +176,30 @@ prt2_task1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/prt2_task1.cpp.s
 .PHONY : prt2_task1.cpp.s
 
+prt2_task2.obj: prt2_task2.cpp.obj
+.PHONY : prt2_task2.obj
+
+# target to build an object file
+prt2_task2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/prt2_task2.cpp.obj
+.PHONY : prt2_task2.cpp.obj
+
+prt2_task2.i: prt2_task2.cpp.i
+.PHONY : prt2_task2.i
+
+# target to preprocess a source file
+prt2_task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/prt2_task2.cpp.i
+.PHONY : prt2_task2.cpp.i
+
+prt2_task2.s: prt2_task2.cpp.s
+.PHONY : prt2_task2.s
+
+# target to generate assembly for a file
+prt2_task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/prt2_task2.cpp.s
+.PHONY : prt2_task2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... prt2_task1.obj
 	@echo ... prt2_task1.i
 	@echo ... prt2_task1.s
+	@echo ... prt2_task2.obj
+	@echo ... prt2_task2.i
+	@echo ... prt2_task2.s
 .PHONY : help
 
 
