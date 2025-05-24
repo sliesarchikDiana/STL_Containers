@@ -1,4 +1,3 @@
-#include "prt2_task1.h"
 #include <iostream>
 #include <string>
 #include <unordered_map>
@@ -33,7 +32,7 @@ int main() {
     cout << "Enter the pattern: ";
     getline(cin, t);
 
-    string result = find_min_window(s, t);
+    const string result = find_min_window(s, t);
     cout << (result.empty() ? "No pattern found" : "Result: " + result) << endl;
 
     return 0;

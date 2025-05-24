@@ -68,24 +68,10 @@ include CMakeFiles/STL_Containers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STL_Containers.dir/flags.make
 
-CMakeFiles/STL_Containers.dir/main.cpp.obj: CMakeFiles/STL_Containers.dir/flags.make
-CMakeFiles/STL_Containers.dir/main.cpp.obj: C:/Users/VivoBook/Desktop/STL_Containers/main.cpp
-CMakeFiles/STL_Containers.dir/main.cpp.obj: CMakeFiles/STL_Containers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\VivoBook\Desktop\STL_Containers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STL_Containers.dir/main.cpp.obj"
-	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STL_Containers.dir/main.cpp.obj -MF CMakeFiles\STL_Containers.dir\main.cpp.obj.d -o CMakeFiles\STL_Containers.dir\main.cpp.obj -c C:\Users\VivoBook\Desktop\STL_Containers\main.cpp
-
-CMakeFiles/STL_Containers.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/STL_Containers.dir/main.cpp.i"
-	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\VivoBook\Desktop\STL_Containers\main.cpp > CMakeFiles\STL_Containers.dir\main.cpp.i
-
-CMakeFiles/STL_Containers.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/STL_Containers.dir/main.cpp.s"
-	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\VivoBook\Desktop\STL_Containers\main.cpp -o CMakeFiles\STL_Containers.dir\main.cpp.s
-
 CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj: CMakeFiles/STL_Containers.dir/flags.make
 CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj: C:/Users/VivoBook/Desktop/STL_Containers/prt1_task1.cpp
 CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj: CMakeFiles/STL_Containers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\VivoBook\Desktop\STL_Containers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\VivoBook\Desktop\STL_Containers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj"
 	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj -MF CMakeFiles\STL_Containers.dir\prt1_task1.cpp.obj.d -o CMakeFiles\STL_Containers.dir\prt1_task1.cpp.obj -c C:\Users\VivoBook\Desktop\STL_Containers\prt1_task1.cpp
 
 CMakeFiles/STL_Containers.dir/prt1_task1.cpp.i: cmake_force
@@ -99,7 +85,7 @@ CMakeFiles/STL_Containers.dir/prt1_task1.cpp.s: cmake_force
 CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj: CMakeFiles/STL_Containers.dir/flags.make
 CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj: C:/Users/VivoBook/Desktop/STL_Containers/prt2_task1.cpp
 CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj: CMakeFiles/STL_Containers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\VivoBook\Desktop\STL_Containers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\VivoBook\Desktop\STL_Containers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj"
 	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj -MF CMakeFiles\STL_Containers.dir\prt2_task1.cpp.obj.d -o CMakeFiles\STL_Containers.dir\prt2_task1.cpp.obj -c C:\Users\VivoBook\Desktop\STL_Containers\prt2_task1.cpp
 
 CMakeFiles/STL_Containers.dir/prt2_task1.cpp.i: cmake_force
@@ -112,21 +98,19 @@ CMakeFiles/STL_Containers.dir/prt2_task1.cpp.s: cmake_force
 
 # Object files for target STL_Containers
 STL_Containers_OBJECTS = \
-"CMakeFiles/STL_Containers.dir/main.cpp.obj" \
 "CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj" \
 "CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj"
 
 # External object files for target STL_Containers
 STL_Containers_EXTERNAL_OBJECTS =
 
-STL_Containers.exe: CMakeFiles/STL_Containers.dir/main.cpp.obj
 STL_Containers.exe: CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj
 STL_Containers.exe: CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj
 STL_Containers.exe: CMakeFiles/STL_Containers.dir/build.make
 STL_Containers.exe: CMakeFiles/STL_Containers.dir/linkLibs.rsp
 STL_Containers.exe: CMakeFiles/STL_Containers.dir/objects1.rsp
 STL_Containers.exe: CMakeFiles/STL_Containers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\VivoBook\Desktop\STL_Containers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable STL_Containers.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\VivoBook\Desktop\STL_Containers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable STL_Containers.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\STL_Containers.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

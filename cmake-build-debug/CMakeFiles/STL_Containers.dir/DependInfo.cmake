@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/VivoBook/Desktop/STL_Containers/main.cpp" "CMakeFiles/STL_Containers.dir/main.cpp.obj" "gcc" "CMakeFiles/STL_Containers.dir/main.cpp.obj.d"
   "C:/Users/VivoBook/Desktop/STL_Containers/prt1_task1.cpp" "CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj" "gcc" "CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj.d"
   "C:/Users/VivoBook/Desktop/STL_Containers/prt2_task1.cpp" "CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj" "gcc" "CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj.d"
   )

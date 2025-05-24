@@ -128,30 +128,6 @@ STL_Containers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/build
 .PHONY : STL_Containers/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 prt1_task1.obj: prt1_task1.cpp.obj
 .PHONY : prt1_task1.obj
 
@@ -209,9 +185,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... STL_Containers
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... prt1_task1.obj
 	@echo ... prt1_task1.i
 	@echo ... prt1_task1.s

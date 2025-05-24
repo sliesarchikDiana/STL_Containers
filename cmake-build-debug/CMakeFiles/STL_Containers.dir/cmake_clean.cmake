@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/STL_Containers.dir/main.cpp.obj"
-  "CMakeFiles/STL_Containers.dir/main.cpp.obj.d"
   "CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj"
   "CMakeFiles/STL_Containers.dir/prt1_task1.cpp.obj.d"
   "CMakeFiles/STL_Containers.dir/prt2_task1.cpp.obj"
