@@ -248,6 +248,30 @@ prt2_task4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/prt2_task4.cpp.s
 .PHONY : prt2_task4.cpp.s
 
+prt2_task5.obj: prt2_task5.cpp.obj
+.PHONY : prt2_task5.obj
+
+# target to build an object file
+prt2_task5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/prt2_task5.cpp.obj
+.PHONY : prt2_task5.cpp.obj
+
+prt2_task5.i: prt2_task5.cpp.i
+.PHONY : prt2_task5.i
+
+# target to preprocess a source file
+prt2_task5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/prt2_task5.cpp.i
+.PHONY : prt2_task5.cpp.i
+
+prt2_task5.s: prt2_task5.cpp.s
+.PHONY : prt2_task5.s
+
+# target to generate assembly for a file
+prt2_task5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STL_Containers.dir\build.make CMakeFiles/STL_Containers.dir/prt2_task5.cpp.s
+.PHONY : prt2_task5.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -272,6 +296,9 @@ help:
 	@echo ... prt2_task4.obj
 	@echo ... prt2_task4.i
 	@echo ... prt2_task4.s
+	@echo ... prt2_task5.obj
+	@echo ... prt2_task5.i
+	@echo ... prt2_task5.s
 .PHONY : help
 
 
