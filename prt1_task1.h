@@ -34,10 +34,9 @@ void rotateClockwise(std::array<T, N>& arr, std::size_t shift) {
     shift %= N;
     if (shift == 0) return;
     std::vector<T> temp;
-    temp.reserve(N); //pre-allocates space for efficiency.
-
+    temp.reserve(N);
     for (std::size_t i = 0; i < N; ++i) {
-        temp.push_back(arr[(i + N - shift) % N]); //fills the temporary array with values from the original array wrapping them clockwise//
+        temp.push_back(arr[(i + N - shift) % N]);
     }
 
     for (std::size_t i = 0; i < N; ++i) {
